@@ -1,81 +1,87 @@
-# Turborepo starter
+# XP.Store
 
-This is an official starter Turborepo.
+ela e uma loja Gamer criada para solucionar os problemas de falta de informacoes de produtos de maneira facil e vendendo sempre pelo melhor preco
 
-## Using this example
+**Importante** O site pode nao funcionar por falta de um banco de dados.
 
-Run the following command:
+## Turborepo Starter
+
+Este é um modelo oficial do Turborepo.
+
+## Usando este exemplo
+
+Execute o seguinte comando:
 
 ```sh
 npx create-turbo@latest
 ```
 
-## What's inside?
+## O que está incluído?
 
-This Turborepo includes the following packages/apps:
+Este Turborepo inclui os seguintes pacotes/aplicativos:
 
-### Apps and Packages
+### Aplicativos e Pacotes
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `docs`: um aplicativo [Next.js](https://nextjs.org/)
+- `web`: outro aplicativo [Next.js](https://nextjs.org/)
+- `@repo/ui`: uma biblioteca de componentes React compartilhada entre as aplicações `web` e `docs`
+- `@repo/eslint-config`: configurações do `eslint` (inclui `eslint-config-next` e `eslint-config-prettier`)
+- `@repo/typescript-config`: arquivos `tsconfig.json` usados em todo o monorepo
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+Cada pacote/aplicativo é 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Utilities
+### Utilitários
 
-This Turborepo has some additional tools already setup for you:
+Este Turborepo já vem com algumas ferramentas configuradas para você:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- [TypeScript](https://www.typescriptlang.org/) para verificação estática de tipos
+- [ESLint](https://eslint.org/) para linting de código
+- [Prettier](https://prettier.io) para formatação de código
 
 ### Build
 
-To build all apps and packages, run the following command:
+Para compilar todos os aplicativos e pacotes, execute o seguinte comando:
 
 ```
 cd my-turborepo
 pnpm build
 ```
 
-### Develop
+### Desenvolvimento
 
-To develop all apps and packages, run the following command:
+Para desenvolver todos os aplicativos e pacotes, execute o seguinte comando:
 
 ```
 cd my-turborepo
 pnpm dev
 ```
 
-### Remote Caching
+### Cache Remoto
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+O Turborepo pode usar uma técnica conhecida como [Cache Remoto](https://turbo.build/repo/docs/core-concepts/remote-caching) para compartilhar artefatos de cache entre máquinas, permitindo que você compartilhe caches de build com sua equipe e pipelines de CI/CD.
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+Por padrão, o Turborepo fará cache localmente. Para habilitar o Cache Remoto, você precisará de uma conta no Vercel. Caso não tenha uma conta, você pode [criar uma](https://vercel.com/signup). Em seguida, insira os comandos abaixo:
 
 ```
 cd my-turborepo
 npx turbo login
 ```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+Isso irá autenticar a CLI do Turborepo com sua [conta Vercel](https://vercel.com/docs/concepts/personal-accounts/overview).
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+Depois, você pode vincular seu Turborepo ao Cache Remoto executando o seguinte comando na raiz do seu Turborepo:
 
 ```
 npx turbo link
 ```
 
-## Useful Links
+## Links Úteis
 
-Learn more about the power of Turborepo:
+Saiba mais sobre o poder do Turborepo:
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+- [Tarefas](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
+- [Cache](https://turbo.build/repo/docs/core-concepts/caching)
+- [Cache Remoto](https://turbo.build/repo/docs/core-concepts/remote-caching)
+- [Filtragem](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
+- [Opções de Configuração](https://turbo.build/repo/docs/reference/configuration)
+- [Uso da CLI](https://turbo.build/repo/docs/reference/command-line-reference)
